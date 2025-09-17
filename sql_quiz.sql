@@ -57,3 +57,43 @@ ADD CONSTRAINT FK_Company_Field FOREIGN KEY (FieldID) REFERENCES FIELD(ID);
 
 ALTER TABLE DEPARTMENT
 ADD CONSTRAINT Fk_Company_Department FOREIGN KEY (CompanyID) REFERENCES COMPANY(ID)
+
+-- SELECT FIELD TABLE
+SELECT * FROM FIELD
+
+-- INSERT SOME FIELDS
+INSERT INTO FIELD(Field) VALUES('Technology') --1
+INSERT INTO FIELD(Field) VALUES('Marketing') --2
+INSERT INTO FIELD(Field) VALUES('R&D') --3
+INSERT INTO FIELD(Field) VALUES('Industrial') --4
+INSERT INTO FIELD(Field) VALUES('Biomedical') --5
+INSERT INTO FIELD(Field) VALUES('Health') --6
+INSERT INTO FIELD(Field) VALUES('Justice') --7
+INSERT INTO FIELD(Field) VALUES('Education') --8
+INSERT INTO FIELD(Field) VALUES('Finance') --9
+INSERT INTO FIELD(Field) VALUES('Energy') --10
+INSERT INTO FIELD(Field) VALUES('Agriculture') --11
+INSERT INTO FIELD(Field) VALUES('Construction') --12
+INSERT INTO FIELD(Field) VALUES('Logistics') --13
+INSERT INTO FIELD(Field) VALUES('Games') --14
+INSERT INTO FIELD(Field) VALUES('Commerce') --15
+
+
+/* fields = [
+'Technology',
+'Marketing',
+'R&D',
+'Industrial',
+'Biomedical',
+'Health',
+'Justice',
+'Education',
+'Finance',
+'Energy',
+'Agriculture',
+'Construction'
+'Logistics',
+'Games',
+'Commerce'
+
+]
