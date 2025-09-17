@@ -198,6 +198,26 @@ ALTER TABLE DEPARTMENT
 DROP COLUMN CompanyID;
 
 
+
 -- SELECT DEPARTMENT AND INSERT SOME SAMPLES
 SELECT * FROM DEPARTMENT 
+
+INSERT INTO DEPARTMENT(Department)
+VALUES
+('HR'), -- 1-Insan Kaynaklari
+('IT'), -- 2- Bilgi islem
+('Marketing'), -- 3-Pazarlama
+('Sales'), -- 4-Satis
+('Finance'), --5-Finans
+('R&D'), --6-Arastirma-Gelistirme
+('Operations'), --7-Operasyon
+('Logistics'), --8- Tedarik zinciri
+('Customer Service'),-- 9- Musteri Hizmetleri
+('Legal'), -- 10-Hukuk
+('QC'), -- 11- Kalite Kontrol
+('Purchasing'), -- 12-Satin Alma
+('Customer Success'), --13- Musteri Memnuniyeti
+('Talent Management'), -- 14- Yetenek Yonetimi (HR'in gelismisi)
+('Technical Support'), -- 15- Teknik Destek
+('Manufacturing') -- 16-Uretim
 
