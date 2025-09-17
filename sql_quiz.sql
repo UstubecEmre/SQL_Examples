@@ -221,3 +221,29 @@ VALUES
 ('Technical Support'), -- 15- Teknik Destek
 ('Manufacturing') -- 16-Uretim
 
+
+-- INSERT EMPLOYEE
+SELECT * FROM EMPLOYEE
+
+INSERT INTO EMPLOYEE(Name, Surname, Email, CompanyId, DepartmentID, Salary,Experience, StartDate)
+VALUES
+('Emre','Ustubec','emre@gmail.com',1,2, 35000, 3, '2022-09-17'),
+('Erol','Ustubec','erol@gmail.com',1,2, 55000, 6, '2010-01-24'),
+('Zahide','Kalkan','zahide@outlook.com',1,1, 25000, 1, '2023-11-07'),
+('Fatma','Derin','fatma@yahoo.com',2,1, 47500, 4, '2019-10-19'),
+('Zahir','Yusufi','yusufizahir@gmail.com',2, 5, 41000, 3, '2022-10-10'),
+('Havva','Hakiki','havva@outlook.com',3, 3, 60000 ,7, '2017-01-29'),
+('Emre','Ilgic','ilgicemre@yahoo.com',4, 1, 45000, 3, '2022-01-01'),
+('Edis','Gezer','gezerdis@yahoo.com',5, 5, 27000, 1, '2024-03-30'),
+('Uygar','Yuksel','uygar@google.com',7, 4, 32000, 4, '2021-06-15'),
+('Polen','Zaferoglu','polenzoglu@google.com',8, 6, 52000, 4, '2021-08-20'),
+('Bahar','Eker','bahar@google.com',9, 10, 42500, 4, '2018-08-20'),
+('Dicle','Sudoken','sdicle@outlook.com',10, 12, 367500, 2, '2022-10-07'),
+('Fatma','Yaprak','fatmayaprak@outlook.com',4, 16, 48750, 7, '2016-02-14')
+
+USE SQL_QUIZ
+SELECT * FROM EMPLOYEE
+
+/*
+ALTER TABLE EMPLOYEE
+ADD CHECK (A>=18);*/
