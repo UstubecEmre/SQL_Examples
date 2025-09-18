@@ -1,0 +1,13 @@
+-- SQL DQL (Data Query Language):
+/*
+SELECT
+FROM
+WHERE
+GROUP BY
+HAVING
+DISTINCT
+ORDER BY
+LIMIT / TOP
+
+
+*/
