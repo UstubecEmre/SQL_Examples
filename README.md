@@ -3,31 +3,6 @@
 Bu repo, MS SQL Server 2012 üzerinde çalıştırılmış SQL örneklerini içerir.  
 Ders, alıştırma ve kendi çalışmalarım için hazırlanmıştır.
 
-## Klasör Yapısı
-
-sql-examples/
-├── src/ # Tüm SQL scriptlerinin bulunduğu ana klasör
-│ ├── ddl/ # DDL (Data Definition Language) örnekleri
-│ │ └── sql_quiz_ddl.sql
-│ │
-│ ├── dml/ # DML (Data Manipulation Language) örnekleri
-│ │ └── sql_quiz_dml.sql
-│ │
-│ ├── dql/ # DQL (Data Query Language) örnekleri
-│ │ └── sql_quiz_dql.sql
-│ │
-│ ├── queries/ # Orta ve ileri düzey sorgu örnekleri
-│ │ └── mid_level_sql_queries.sql
-│ │
-│ └── sql_examples/ # Bağımsız / proje tabanlı SQL örnekleri
-│ ├── Northwind_SQL_Examples.sql
-│ └── MiUuL_FLO_Examples.sql
-│
-├── LICENSE # MIT lisans dosyası
-├── README.md # Proje açıklamaları
-├── notes.txt # Ek SQL notları, açıklamalar
-└── .gitignore # Git tarafından izlenmeyecek dosyalar
-
 ## 📂 Klasör Yapısı
 
 ```text
@@ -67,12 +42,13 @@ sql-examples/
 ---
 
 ## Reponun klonlanması
-
+```bash
 git clone https://github.com/UstubecEmre/SQL_Examples.git
-
+```
 # Klasöre gir
-
+```bash
 cd SQL_Examples
+```
 
 ## 📌 Notlar
 
