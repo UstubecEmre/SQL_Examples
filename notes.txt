@@ -1,0 +1,46 @@
+Notlarıma başlamadan önce bu projeden olabildiğince verim alabilmenizi umut ediyorum.
+
+İyi niyetli düşüncelerimden sonra asıl meselemiz olan projeye geçelim:)
+
+Proje Notları ve Kurulum Rehberi
+Selam! Bu projeyi çalıştırmak istersen dikkat etmen gereken birkaç ufak ama önemli nokta var. Her şeyin sorunsuz ilerlemesi için bu notlara göz atmanı tavsiye ederim.
+
+Veri Setlerimiz:
+
+Projemizde tam üç farklı veri seti bir araya geldi:
+
+Miuul FLO Eğitim Veri Seti: Miuul'un bize sunduğu harika bir eğitim seti.
+
+Northwind Veri Seti: SQL öğrenen herkesin yolunun kesiştiği o meşhur, açık kaynaklı veri seti.
+
+sql_quiz Veri Seti: Benim özel olarak hazırladığım, tamamen bana ait bir veri seti.
+
+Kurulum Sırası Neden Önemli?
+
+Bu veritabanında yer alan tablolar arasında Foreign Key - Primary Key ilişkileri var. Bu da demek oluyor ki, tabloları belirli bir sıraya göre oluşturmak ve veri eklemek gerekiyor.
+
+En önemli kuralımız: Hiçbir bağımlılığı olmayan, yani sadece Primary Key'e sahip olan tabloları her zaman önce oluşturmalısın.
+
+Bağımlılık Zinciri: Burası oldukça önemli bir yere sahip, dikkat etmeni öneririm.
+
+FIELD.ID -> COMPANY.FieldID
+
+DEPARTMENT.ID -> EMPLOYEE.DepartmentID
+
+COMPANY.ID -> EMPLOYEE.CompanyID
+
+Tablo ve Kayıt Sayıları:
+
+Şu an için tabloların içindeki kayıt sayıları şu şekilde:
+
+EMPLOYEE => 13 kayıt
+
+COMPANY => 57 kayıt
+
+DEPARTMENT => 16 kayıt
+
+FIELD => 15 kayıt
+
+Bu sayılar başlangıçta işini görmesi için yeterli, ama ileride projenin kapsamını genişletmek istersen tabii ki artırabilir veya azaltabilirsin.
+
+Umarım notlar işine yarar ve projeyle çalışmaktan keyif alırsın!
