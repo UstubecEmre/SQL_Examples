@@ -22,7 +22,7 @@ sql-examples/
 │   │
 │   └── sql_examples/        # Bağımsız / proje tabanlı SQL örnekleri
 │       ├── Northwind_SQL_Examples.sql
-│       └── MiUuL_FLO_Examples.sql
+│       
 │
 ├── LICENSE                  # MIT lisans dosyası
 ├── README.md                # Proje açıklamaları
